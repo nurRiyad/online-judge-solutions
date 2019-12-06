@@ -14,7 +14,7 @@ My solutions are mainly written in **C++** more specifically **C++11**, but ther
  ## List of my Handle
  * Codeforces---> [nur_riyad](https://codeforces.com/profile/nur_riyad) 
  * Codechef-----> [nur_riyad](https://www.codechef.com/users/nur_riyad)
- * Uva ---------->[nur_riyad](https://uhunt.onlinejudge.org/id/946967)
+ * Uva -----------> [nur_riyad](https://uhunt.onlinejudge.org/id/946967)
  * Atcoder ------> [nur_riyad](https://atcoder.jp/users/nur_riyad)
 
  
