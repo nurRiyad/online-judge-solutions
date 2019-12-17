@@ -11,7 +11,7 @@ This is a repository containing all of my accepted solution in various online ju
 ## Language used
 My solutions are mainly written in **C++** more specifically **C++11**, but there might be some code in **C** programming language also.
  
- ## List of my Handle
+ ## List of my Online Judge Handles
  * Codeforces---> [nur_riyad](https://codeforces.com/profile/nur_riyad) 
  * Codechef-----> [nur_riyad](https://www.codechef.com/users/nur_riyad)
  * Uva -----------> [nur_riyad](https://uhunt.onlinejudge.org/id/946967)
