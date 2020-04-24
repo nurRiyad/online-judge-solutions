@@ -10,6 +10,10 @@ int main()
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
 
-
+    string s;
+    cin>>s;
+    string a=s;
+    reverse(a.begin(),a.end());
+    cout<<s+a<<endl;
     return 0;
 }

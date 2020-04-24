@@ -10,6 +10,19 @@ int main()
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
 
+    ll t;
+    cin>>t;
+    while(t--){
+        ll n;
+        cin>>n;
+        vector<ll> v(n);
+        map<ll,ll> mp;
+        for(ll i=0;i<n;i++){
+            cin>>v[i];
+            mp[v[i]]++;
+        }
+        cout<<mp.size()<<endl;
 
+    }
     return 0;
 }
