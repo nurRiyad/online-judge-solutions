@@ -5,7 +5,7 @@ Dept of CSE
 -->
 #  Online JudgeSolutions
 
-This is a repository containing all of my accepted solution in various online judge,including Codeforces, Codechef , Uva, LightOj, SPOj, HackerRank,HackerEarth, Atcoder, Euler Project.
+This repository contain all of my accepted solution in various online judge including Codeforces, Codechef , Uva, LightOj, SPOj, HackerRank,HackerEarth, Atcoder, Euler Project.
 
 
 ## Language used
