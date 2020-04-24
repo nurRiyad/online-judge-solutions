@@ -10,19 +10,18 @@ int main()
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
 
-    ll n,m;
-    cin>>n>>m;
-    if(m-n<=1){
-        cout<<-1<<endl;
-        return 0;
+    string s;
+    cin>>s;
+    ll x='a'-'a';
+    ll ans=0;
+    for(ll i=0;i<s.size();i++){
+        ll y=s[i]-'a';
+        ll d=abs(x-y);
+        if(d>13) ans+=(26-d);
+        else ans+=d;
+        x=y;
     }
-    if(m-n<=2&&n%2==1){
-        cout<<-1<<endl;
-        return 0;
-    }
-    ll a;
-    if(n%2==0) a=n;
-    else a=n+1;
-    cout<<a<<" "<<a+1<<" "<<a+2<<endl;
+    cout<<ans<<endl;
     return 0;
 }
+

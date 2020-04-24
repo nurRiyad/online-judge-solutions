@@ -10,21 +10,16 @@ int main()
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
 
+    ll a,b,c,d;
+    cin>>a>>b>>c>>d;
     string s;
-    ll ar[30];
-    memset(ar,0,sizeof(ar));
-    getline(cin,s);
-    //cout<<"here is="<<s<<endl;
+    cin>>s;
     ll cnt=0;
     for(ll i=0;i<s.size();i++){
-        if(s[i]>='a'&&s[i]<='z'){
-            ll x=s[i]-'a';
-            //cout<<x<<endl;
-            if(ar[x]<=0){
-                ar[x]++;
-                cnt++;
-            }
-        }
+        if(s[i]=='1') cnt+=a;
+        if(s[i]=='2') cnt+=b;
+        if(s[i]=='3') cnt+=c;
+        if(s[i]=='4') cnt+=d;
     }
     cout<<cnt<<endl;
     return 0;

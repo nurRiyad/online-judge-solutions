@@ -10,19 +10,18 @@ int main()
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
 
-    ll n,m;
-    cin>>n>>m;
-    if(m-n<=1){
-        cout<<-1<<endl;
-        return 0;
+    ll t;
+    cin>>t;
+    while(t--){
+        ll a,b,c;
+        cin>>a>>b>>c;
+        ll x=max(a,max(b,c));
+        ll y=min(a,min(b,c));
+        ll z=(a+b+c)-y-x;
+        if(x>(y+z+1)) cout<<"No"<<endl;
+        else cout<<"Yes"<<endl;
+
     }
-    if(m-n<=2&&n%2==1){
-        cout<<-1<<endl;
-        return 0;
-    }
-    ll a;
-    if(n%2==0) a=n;
-    else a=n+1;
-    cout<<a<<" "<<a+1<<" "<<a+2<<endl;
     return 0;
 }
+

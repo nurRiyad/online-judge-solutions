@@ -12,17 +12,16 @@ int main()
 
     ll n,m;
     cin>>n>>m;
-    if(m-n<=1){
-        cout<<-1<<endl;
-        return 0;
+    bool flag=false;
+    for(ll i=0;i<n;i++){
+        for(ll j=0;j<m;j++){
+            char ch;
+            cin>>ch;
+            if(ch!='W'&&ch!='B'&&ch!='G') flag=true;
+        }
     }
-    if(m-n<=2&&n%2==1){
-        cout<<-1<<endl;
-        return 0;
-    }
-    ll a;
-    if(n%2==0) a=n;
-    else a=n+1;
-    cout<<a<<" "<<a+1<<" "<<a+2<<endl;
+    if(flag) cout<<"#Color"<<endl;
+    else cout<<"#Black&White"<<endl;
     return 0;
 }
+
